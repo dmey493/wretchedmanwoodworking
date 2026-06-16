@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/webp" href="/logo.webp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Wretched Man Woodworking | Custom Handmade Furniture in Fort Wayne, IN</title>
+  <meta name="description"
+    content="Custom handmade furniture crafted from trees, including live-edge tables, cutting boards, and one-of-a-kind heirloom pieces. We mill, kiln dry, and build, serving the Fort Wayne, IN area. Get a free quote today." />
+  <link rel="canonical" href="https://www.wmwoodworking.com/" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#6f4e37" />
+  <meta name="geo.region" content="US-IN" />
+  <meta name="geo.placename" content="Fort Wayne, Indiana" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="business.business" />
+  <meta property="og:title" content="Wretched Man Woodworking | Custom Handmade Furniture" />
+  <meta property="og:description"
+    content="From tree to treasured furniture. Custom tables, cutting boards, and heirloom pieces handmade in the Fort Wayne, IN area." />
+  <meta property="og:url" content="https://www.wmwoodworking.com/" />
+  <meta property="og:site_name" content="Wretched Man Woodworking" />
+  <meta property="og:image" content="https://www.wmwoodworking.com/gallery/masterworks-06.webp" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Wretched Man Woodworking | Custom Handmade Furniture" />
+  <meta name="twitter:description"
+    content="From tree to treasured furniture. Custom tables, cutting boards, and heirloom pieces handmade in the Fort Wayne, IN area." />
+  <meta name="twitter:image" content="https://www.wmwoodworking.com/gallery/masterworks-06.webp" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..700&family=Inter:wght@300..700&display=swap"
+    rel="stylesheet">
+
+  <!-- Structured data: LocalBusiness for local search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.wmwoodworking.com/#business",
+    "name": "Wretched Man Woodworking",
+    "description": "Custom handmade furniture crafted from trees, including live-edge tables, cutting boards, and one-of-a-kind heirloom pieces. We mill logs on-site, kiln dry the lumber, and build to your specifications. Serving the Fort Wayne, Indiana area.",
+    "url": "https://www.wmwoodworking.com/",
+    "telephone": "+1-260-693-9781",
+    "email": "dhostetler@wmwoodworking.com",
+    "image": "https://www.wmwoodworking.com/gallery/masterworks-06.webp",
+    "logo": "https://www.wmwoodworking.com/logo.webp",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Churubusco",
+      "addressRegion": "IN",
+      "postalCode": "46723",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Fort Wayne, IN" },
+      { "@type": "City", "name": "New Haven, IN" },
+      { "@type": "City", "name": "Huntertown, IN" },
+      { "@type": "City", "name": "Auburn, IN" },
+      { "@type": "City", "name": "Columbia City, IN" },
+      { "@type": "City", "name": "Churubusco, IN" },
+      { "@type": "State", "name": "Indiana" }
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "10:00",
+      "closes": "18:00"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Custom Woodworking",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Designed Furniture" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "A-Frame Tables" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Custom Cutting Boards" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Sawmilling & Lumber" } }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Make prerendered content visible if JavaScript is disabled -->
+  <noscript>
+    <style>
+      [style*="opacity:0"],
+      [style*="opacity: 0"] {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body>
+  <!--
+    Static, hidden copy of the quote form so Netlify detects it at deploy time
+    (Netlify scans the raw HTML for forms). The visible React form submits to it
+    via AJAX with form-name=quote. Must stay OUTSIDE #root.
+  -->
+  <form name="quote" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="tel" name="phone" />
+    <input type="text" name="project" />
+    <textarea name="message"></textarea>
+  </form>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
